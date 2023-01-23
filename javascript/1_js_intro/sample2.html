@@ -18,7 +18,15 @@
         // 4. Undefined 
         // 5. Null
 
-        null
+        // null
+        function codeHoist(){
+        a = 10;
+         b = 50;
+    }
+    codeHoist();
+  
+    console.log(a); // 10
+    console.log(b);
     </script>
 </body>
 </html>

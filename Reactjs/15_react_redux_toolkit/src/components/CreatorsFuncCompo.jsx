@@ -95,12 +95,12 @@ const CreatorsFuncCompo = () => {
           }}
         />{" "}
         <br />
-        {isEdit?(<button type="button" onClick={CreatorUpdate}>updateCreator</button>):(<button type="button" onClick={CreatorAdd}>
+        {isEdit?(<button type="button" className="btn btn-warning" onClick={CreatorUpdate}>updateCreator</button>):(<button type="button" className="btn btn-primary" onClick={CreatorAdd}>
           add creator
         </button>)}
       </form>
 
-      <table>
+      <table className="table">
         <thead>
             <tr>
                 <th>id</th>
@@ -120,10 +120,10 @@ const CreatorsFuncCompo = () => {
                     <td>{cre.lname}</td>
                     <td>{cre.email}</td>
                     <td>
-                        <button onClick={()=>{EditCreator(cre)}}>edit</button>
+                        <button className="btn btn-info" onClick={()=>{EditCreator(cre)}}>edit</button>
                     </td>
                     <td>
-                        <button onClick={()=>{deleteCreator(cre)}}>delete</button>
+                        <button className="btn btn-danger" onClick={()=>{deleteCreator(cre)}}>delete</button>
                     </td>
                 </tr>
             ))}

@@ -3,7 +3,7 @@
     {
       "id": 1,
       "fname": "Mangali",
-      "lname": "saikumar",
+      "lname": "sai",
       "email": "lucky@gmail.com"
     },
     {
@@ -11,6 +11,18 @@
       "fname": "maheshwari",
       "lname": "shwari",
       "email": "ssri9691@gmail.com"
+    },
+    {
+      "id": 3,
+      "fname": "sri",
+      "lname": "kanth sai",
+      "email": "vinod==@gmail.com"
+    },
+    {
+      "id": 4,
+      "fname": "arva",
+      "lname": "arun",
+      "email": "lucky@gmail.com"
     }
   ],
   "founder": [
@@ -69,22 +81,6 @@
       "country": "Peru",
       "phone": "8834491523",
       "password": "dVXP4"
-    },
-    {
-      "id": 39,
-      "email": "TVinton@eget.net",
-      "username": "AKranz",
-      "country": "Palau",
-      "phone": "9078129899",
-      "password": "Hmu5A"
-    },
-    {
-      "id": 40,
-      "email": "CGover@massa.gov",
-      "username": "GWurttemberg",
-      "country": "india",
-      "phone": "8481643395",
-      "password": "aUWbt"
     }
   ],
   "registration": [
